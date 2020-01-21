@@ -589,6 +589,51 @@ header {
     margin-top: 50px;
 }
 
+.option-list {
+
+    font-family: var(--mainFont);
+    font-size: 14px;
+    line-height: 41px;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-align: center;
+    color: var(--blackColor);
+    margin-top: 93px;
+   
+}
+
+.option-list-center{
+    margin-top: 61px;
+}
+
+.option-list-right {
+    margin-top: 45px;
+}
+
+.option-inactive span {
+    background-image: url(../icon/Close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 5px;   
+
+}
+
+.option-active span {
+    background-image: url(../icon/Ckechmark-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 5px;    
+}
+
+
 /* section 6 */
 
 .section-six {
